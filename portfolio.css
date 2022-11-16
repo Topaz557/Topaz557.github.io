@@ -45,7 +45,7 @@ p {
 
 /* Paragraph element hover effect */
 p:hover {
-    color:aqua;
+    color: blue;
     transition: transform 1s; /* This makes the transform effect last 1 second */
 	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
 }
@@ -288,6 +288,7 @@ img:hover {
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
+    text size:12px;
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
